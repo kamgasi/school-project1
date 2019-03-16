@@ -1,0 +1,39 @@
+$background-color: #99738e;
+$taco-pink: #ff5ea6;
+$taco-blue: #001489;
+
+main{
+    display: flex;
+    clear: both;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    div.taco-history{
+        color: white; 
+        background-color: $taco-blue;
+        margin: 5.25rem 1.875rem;
+        padding: 1.25rem;
+        font-family: 'Lato';
+        box-shadow: 0 0 5px 5px gray;
+        h2{
+            font-size: 2rem;   
+            width: 15rem;;
+            border-bottom: 3px solid $taco-pink;
+            margin-bottom: 0.5rem;
+        }
+        p{
+            font-size:1.25rem;
+            font-family: 'Lato';
+        }
+    }
+    div.taco-history-longer{
+        flex-basis: 45%;
+    }
+    div.taco-history-shorter{
+        flex-basis: 35%;
+        
+    }
+    span{
+        font-weight: bold;
+    }
+}

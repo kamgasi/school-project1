@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  clear: both;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main div.taco-history {
+  color: white;
+  background-color: #001489;
+  margin: 5.25rem 1.875rem;
+  padding: 1.25rem;
+  font-family: 'Lato';
+  box-shadow: 0 0 5px 5px gray;
+}
+
+main div.taco-history h2 {
+  font-size: 2rem;
+  width: 15rem;
+  border-bottom: 3px solid #ff5ea6;
+  margin-bottom: 0.5rem;
+}
+
+main div.taco-history p {
+  font-size: 1.25rem;
+  font-family: 'Lato';
+}
+
+main div.taco-history-longer {
+  flex-basis: 45%;
+}
+
+main div.taco-history-shorter {
+  flex-basis: 35%;
+}
+
+main span {
+  font-weight: bold;
+}

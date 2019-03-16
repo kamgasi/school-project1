@@ -1,0 +1,67 @@
+h2, h3, h4 {
+  font-family: 'Montserrat';
+}
+
+h2 {
+  margin-top: 5.25rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 1.25rem;
+  border-bottom: 2px solid #564239;
+}
+
+main {
+  width: 100%;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 0.5rem auto 0 auto;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  transition: 0.4s;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: #564239;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  transition: 0.4s;
+}
+
+main div.taco-albums {
+  margin: 5.25rem 1.875rem;
+  width: 25%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+main div.taco-albums img {
+  width: 100%;
+  height: auto;
+  box-shadow: 7px 7px 7px gray;
+}

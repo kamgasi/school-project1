@@ -1,0 +1,21 @@
+$background-color: #99738e;
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: #e9e9e9; 
+    div.taco-albums{
+        margin: 5.25rem 1.875rem;
+        width: 25%;
+        height: auto;
+        flex: auto;
+        img{
+            width: 100%;
+            height: auto;
+            box-shadow: 7px 7px 7px gray;
+        }
+    }
+}

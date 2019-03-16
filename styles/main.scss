@@ -1,0 +1,62 @@
+$taco-pink: #ff5ea6;
+$taco-blue: #001489;
+$taco-pink-hover: #f1afcd;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    height: 3.75rem;
+    background-color: $taco-blue;
+    h1{
+        font-family: 'Montserrat';
+        color: $taco-pink;
+        font-size: 1.5rem;
+        line-height: 3.4375rem;
+        float: left;
+        padding: 0 2.25rem;
+    }
+    ul{
+        float: left;
+        li{
+            float: left;
+            list-style: none;
+            position: relative;
+            a{
+            display: block;
+            font-family: 'Montserrat';
+            color: black; // zmienic kolor
+            font-size: 0.875rem;
+            padding: 1.375rem 0.875rem; 
+            text-decoration: none;  
+            }
+            ul{
+            display: none;
+            position: absolute;
+            background-color: $taco-pink; // zmienic kolor
+            padding: 0.625rem; // poprawic
+            border-radius: 0 0 0.25rem 0.25rem;
+            li{
+                width: 11rem;
+                border-radius: 0.25rem;
+                a{
+                    padding: 0.5rem 0.875rem;
+                }
+                a:hover{
+                    background-color: #fff; //zmienic kolor
+                }
+            }
+            }
+            li:hover{
+                    display:block;
+            }
+        }
+    }
+}
+
