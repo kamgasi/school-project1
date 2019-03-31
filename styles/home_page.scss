@@ -28,10 +28,24 @@ main{
     }
     div.taco-history-longer{
         flex-basis: 45%;
+        img{
+            float: right;
+            margin: 1rem 0 1rem 1rem;
+            width: 50%;
+            height: auto;
+        }
     }
     div.taco-history-shorter{
         flex-basis: 35%;
-        
+        img#bg3{
+            float: right;
+            margin: 1rem 0 1rem 1rem;
+            width: 50%;
+            height: auto;
+        }
+        img#bg2{
+            margin-top: 2rem;
+        }
     }
     span{
         font-weight: bold;

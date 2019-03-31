@@ -31,8 +31,26 @@ main div.taco-history-longer {
   flex-basis: 45%;
 }
 
+main div.taco-history-longer img {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+  width: 50%;
+  height: auto;
+}
+
 main div.taco-history-shorter {
   flex-basis: 35%;
+}
+
+main div.taco-history-shorter img#bg3 {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+  width: 50%;
+  height: auto;
+}
+
+main div.taco-history-shorter img#bg2 {
+  margin-top: 2rem;
 }
 
 main span {
